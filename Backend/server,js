@@ -1,0 +1,28 @@
+import express, { json } from 'express';
+import cors from 'cors';
+require('dotenv').config();
+import sendMail from '.email.js';
+
+const app = express();
+const PORT = process.env.PORT || 5000;
+
+app.use(cors());
+app.use(json());
+
+app.post('/api/send', async (req, res) => {
+  const { name, email, message } = req.body;
+
+  if (!name || !email || !message) {
+    return res.status(400).json({ error: 'All fields are required.' });
+  }
+
+  try {
+    const info = await sendMail(name, email, message);
+    res.status(200).json({ success: true, info });
+  } catch (err) {
+    console.error('Email Error:', err);
+    res.status(500).json({ error: 'Failed to send email.' });
+  }
+});
+
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
