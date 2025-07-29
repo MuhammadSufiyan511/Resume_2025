@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
+    "@popperjs/core": "^2.11.8",
     "@react-three/drei": "^9.121.4",
     "@react-three/fiber": "^8.17.12",
     "@react-three/postprocessing": "^2.19.1",
@@ -27,7 +28,8 @@
     "react-joyride": "^2.9.3",
     "react-markdown": "^9.0.3",
     "react-scroll": "^1.9.3",
-    "three": "^0.172.0"
+    "three": "^0.172.0",
+    "three-mesh-bvh": "^0.8.3"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
