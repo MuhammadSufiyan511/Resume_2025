@@ -1,14 +1,14 @@
 // src/App.jsx
 import React, { useState, useEffect } from 'react';
 import Navbar from './Components/navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Hero from './Components/Hero';
+import About from './Components/About';
+import Skills from './Components/Skills';
+import Projects from './Components/Projects';
+import Experience from './Components/Experience';
+import Education from './Components/Education';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
