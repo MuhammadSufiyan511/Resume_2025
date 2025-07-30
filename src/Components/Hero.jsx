@@ -79,7 +79,7 @@ const Hero = () => {
         {/* Subtitle with Typing Effect */}
         <div className="mb-8 h-16 flex items-center justify-center">
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl px-4 font-light">
-            <span className="text-cyan-400 font-semibold">Computer Science Undergraduate</span>
+            <span className="text-cyan-400 font-semibold">Computer Science Graduate</span>
             <span className="mx-4 text-gray-500">•</span>
             <span className="text-purple-400 font-semibold">MERN Stack Developer</span>
           </p>
