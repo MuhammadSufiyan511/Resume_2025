@@ -4,12 +4,12 @@ import { GraduationCap, Calendar, MapPin, Award, Star, BookOpen, Trophy } from '
 const Education = () => {
   const education = [
     {
-      degree: 'B.Sc. in Computer Science',
+      degree: 'Bachelors in Computer Science',
       institution: 'National University of Modern Languages, Islamabad',
-      date: '2021 – Present',
+      date: '2021 – 2025',
       location: 'Islamabad, Pakistan',
       status: 'Current',
-      details: ['CGPA: 3.67/4.00'],
+      details: ['CGPA: 3.65/4.00'],
       icon: GraduationCap,
       color: 'from-blue-500 to-cyan-500',
       bgColor: 'from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20',

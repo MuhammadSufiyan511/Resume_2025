@@ -5,7 +5,7 @@ import resume from '../assets/Muhammad Sufiyan-BSCS-ATS.pdf';
 const Experience = () => {
   const experiences = [
     {
-      role: 'Teaching Assistant',
+      role: 'Teacher',
       company: 'Ozone Evening Coaching Centre',
       date: '2023 – Present',
       location: 'On-site',
@@ -14,6 +14,18 @@ const Experience = () => {
         'Planned and delivered lectures to groups of 20+ students',
         'Developed supplementary problem sets and study materials',
         'Provided one-on-one tutoring to improve student performance',
+      ],
+    },
+    {
+      role: 'Frontend Developer',
+      company: 'Cognetics360',
+      date: '2024 ',
+      location: 'On-site',
+      type: 'Full-time',
+      details: [
+        'Successfully completed a front-end development internship at Cognetics360',
+        'Gained hands-on experience in designing and styling user-friendly web pages.',
+        'Focused on building responsive web interfaces. ',
       ],
     },
     // Add more work experiences here as needed

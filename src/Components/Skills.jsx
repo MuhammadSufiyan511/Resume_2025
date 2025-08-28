@@ -8,6 +8,7 @@ import {
   FaGithub,
   FaBootstrap
 } from 'react-icons/fa';
+import { SiFirebase } from "react-icons/si";
 
 import {
   SiMongodb,
@@ -104,11 +105,11 @@ const Skills = () => {
     },
 
     {
-      name: 'ASP.NET',
-      icon: <SiDotnet size={40} />,
-      color: 'text-purple-600',
-      bgGradient: 'from-purple-500 to-violet-600',
-      level: 'Beginner'
+      name: 'Firebase',
+      icon: <SiFirebase size={40} />,
+      color: 'text-orange-700',
+      bgGradient: 'from-red-500 to-orange-600',
+      level: 'Intermediate'
     },
 
 

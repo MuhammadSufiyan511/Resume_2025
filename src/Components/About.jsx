@@ -99,10 +99,8 @@ const About = () => {
 
                 <div className="bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 rounded-2xl p-6 border border-indigo-200/50 dark:border-indigo-700/50">
                   <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                    I am a <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">motivated Computer Science student</span> with hands-on experience in web development, programming, and teaching assistance.
-                    As a strong analytical thinker and collaborative team player, I specialize in building modern web applications using
-                    technologies like <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">Java, C/C++, JavaScript (MERN stack), and ASP.NET</span>.
-                    Currently seeking <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-red-600">entry-level software development or internship opportunities</span> to apply my technical skills in a professional environment.
+                    Recent <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Computer Science graduate</span> with strong skills in the MERN stack, seeking internship or entry-level software development opportunities. Eager to contribute to dynamic teams, apply technical expertise, and grow professionally in a fast-paced, tech-driven environment.
+                    {/* Currently seeking <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-red-600">entry-level software development or internship opportunities</span> to apply my technical skills in a professional environment. */}
                   </p>
                 </div>
               </div>

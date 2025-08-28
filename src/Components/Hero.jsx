@@ -62,7 +62,7 @@ const Hero = () => {
         {/* Glassmorphism Badge */}
         <div className="inline-flex items-center px-6 py-2 mb-8 bg-white/5 backdrop-blur-md border border-white/10 rounded-full text-cyan-300 text-sm font-medium">
           <div className="w-2 h-2 bg-green-400 rounded-full mr-3 animate-pulse"></div>
-          Available for Opportunities
+         Currently learning Typescript and Next.js to enhance my skills!
         </div>
 
         {/* Main Heading with Gradient Text */}
