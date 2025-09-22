@@ -7,7 +7,7 @@ const Experience = () => {
     {
       role: 'Teacher',
       company: 'Ozone Evening Coaching Centre',
-      date: '2023 – Present',
+      date: '2023 – 2025',
       location: 'On-site',
       type: 'Part-time',
       details: [

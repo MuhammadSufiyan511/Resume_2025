@@ -1,18 +1,15 @@
-import React, { useState } from "react";
 import {
-  ExternalLink,
-  Github,
-  Code,
-  Database,
-  Globe,
   Brain,
-  ShoppingCart,
-  FileText,
-  Cloud,
-  Star,
-  ArrowRight,
+  Clipboard,
+  Code,
+  ExternalLink,
   Filter,
+  Globe,
+  MessageCircle,
+  ShoppingCart,
+  Star,
 } from "lucide-react";
+import { useState } from "react";
 
 const Projects = () => {
   const [filter, setFilter] = useState("All");
@@ -45,29 +42,29 @@ const Projects = () => {
       github: "#",
     },
     {
-      title: "PDF-Merger",
-      desc: "Created a Node.js/Express.js tool to merge multiple PDFs; file upload/download endpoints.",
-      tags: ["Node.js", "Express.js"],
-      category: "Backend",
-      icon: FileText,
+      title: "Event-Sphere",
+      desc: "Developed a full-stack event booking platform with React, Node.js, MongoDB, Stripe, enabling users to browse, book, and pay for events",
+      tags: ["React", "MongoDB", "Node.js", "Express.js"],
+      category: "Full Stack",
+      icon: Clipboard,
       gradient: "from-green-500 to-emerald-500",
       bgGradient:
         "from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20",
       featured: false,
-      link: "#",
+      link: "https://main.d2zq3059ov5wqe.amplifyapp.com/",
       github: "#",
     },
     {
-      title: "Expense-Tracker-App",
-      desc: "Implemented using React as frontend and firebase as a database with realtime graphs.",
-      tags: ["React", "Firebase"],
+      title: "Connect Circle",
+      desc: "Real-Time Chat Application using Vue.js as frontend and firebase as a realtime database.",
+      tags: ["Vue", "Firebase"],
       category: "Web Development",
-      icon: Database,
+      icon: MessageCircle,
       gradient: "from-purple-500 to-pink-500",
       bgGradient:
         "from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20",
       featured: false,
-      link: "#",
+      link: "https://connectcircle-dff2b.web.app/",
       github: "#",
     },
     {
@@ -112,6 +109,7 @@ const Projects = () => {
       "Node.js":
         "bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300",
       PHP: "bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300",
+      Vue: "bg-blue-500 text-green-700 dark:bg-blue-600/30 dark:text-green-300",
       Firebase:
         "bg-orange-600 text-red-700 dark:bg-red-900/30 dark:text-red-300",
       "TensorFlow.js":
@@ -232,11 +230,12 @@ const Projects = () => {
                         ))}
                       </div>
 
-                   
                       {/* Action Buttons */}
                       <div className="flex flex-wrap gap-4">
-                        {/* Only show Live Demo if project has a valid link */}
-                        {project.title.includes("EduManage") &&
+                        {/* Only show Live Demo if project is one of the three and link is valid */}
+                        {(project.title.includes("EduManage") ||
+                          project.title.includes("Event-Sphere") ||
+                          project.title.includes("Connect Circle")) &&
                           project.link !== "#" && (
                             <a
                               href={project.link}
@@ -248,8 +247,6 @@ const Projects = () => {
                               <ExternalLink className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
                             </a>
                           )}
-
-
                       </div>
                     </div>
 
