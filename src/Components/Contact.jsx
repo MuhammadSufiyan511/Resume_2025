@@ -66,7 +66,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-sm text-gray-500 dark:text-gray-400">Phone</p>
-                      <p className="font-semibold text-gray-900 dark:text-white">+92334-5856255</p>
+                      <p className="font-semibold text-gray-900 dark:text-white">+92-334-5856255</p>
                     </div>
                   </div>
                   
@@ -76,7 +76,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-sm text-gray-500 dark:text-gray-400">Location</p>
-                      <p className="font-semibold text-gray-900 dark:text-white">Rawalpindi, Pk</p>
+                      <p className="font-semibold text-gray-900 dark:text-white">Rawalpindi, Pakistan</p>
                     </div>
                   </div>
                 </div>
@@ -86,10 +86,10 @@ const Contact = () => {
               <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-3xl p-8 text-white shadow-xl">
                 <div className="flex items-center space-x-3 mb-4">
                   <div className="w-3 h-3 bg-white rounded-full animate-pulse"></div>
-                  <span className="font-semibold">Available for new projects</span>
+                  <span className="font-semibold">Available for opportunities</span>
                 </div>
                 <p className="text-green-100">
-                  I'm currently accepting new freelance projects and would love to discuss your next big idea.
+                  Open to IT training, technical leadership, and full-stack development opportunities.
                 </p>
               </div>
             </div>

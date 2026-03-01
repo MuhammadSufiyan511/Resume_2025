@@ -1,5 +1,5 @@
 import { createTransport } from 'nodemailer';
-require('dotenv').config();
+import 'dotenv/config';
 
 const sendMail = async (name, email, message) => {
   const transporter = createTransport({
@@ -31,3 +31,4 @@ const sendMail = async (name, email, message) => {
 };
 
 export default sendMail;
+

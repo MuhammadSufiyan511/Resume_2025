@@ -1,7 +1,7 @@
 import express, { json } from 'express';
 import cors from 'cors';
-require('dotenv').config();
-import sendMail from '.email.js';
+import 'dotenv/config';
+import sendMail from './email.js';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -26,3 +26,4 @@ app.post('/api/send', async (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+

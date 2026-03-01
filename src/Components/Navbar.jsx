@@ -157,7 +157,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
       {/* Spacer to prevent content from hiding behind fixed navbar */}
       <div className="h-20"></div>
 
-      <style jsx>{`
+      <style>{`
         @keyframes slideInLeft {
           from {
             opacity: 0;
